@@ -317,7 +317,7 @@ def helpmessage():
     else:
         key = ''
     helpMessage =   "╔══[ Help Message ]" + "\n" + \
-                    "╠ " + key + "Help" + "\n" + \
+                    "╠ " + key + "คำสั่ง" + "\n" + \
                     "╠ " + key + "Translate" + "\n" + \
                     "╠ " + key + "TTS" + "\n" + \
                     "╠══[ Status Command ]" + "\n" + \
