@@ -673,40 +673,40 @@ def clientBot(op):
                             elif cmd == "autoleave off":
                                 settings["autoLeave"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto leave")
-                            elif cmd == "autorespon on":
+                            elif cmd == "เปิดแทค":
                                 settings["autoRespon"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan auto respon")
-                            elif cmd == "autorespon off":
+                            elif cmd == "ปิดแทค":
                                 settings["autoRespon"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto respon")
-                            elif cmd == "autoread on":
+                            elif cmd == "เปิดแทค2":
                                 settings["autoRead"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan auto read")
-                            elif cmd == "autoread off":
+                            elif cmd == "ปิดแทค2":
                                 settings["autoRead"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto read")
-                            elif cmd == "autojointicket on":
+                            elif cmd == "เปิดticket":
                                 settings["autoJoinTicket"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan auto join by ticket")
-                            elif cmd == "autoJoinTicket off":
+                            elif cmd == "ปิดticket":
                                 settings["autoJoin"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto join by ticket")
-                            elif cmd == "checkcontact on":
+                            elif cmd == "เปิดคท":
                                 settings["checkContact"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan check details contact")
-                            elif cmd == "checkcontact off":
+                            elif cmd == "ปิดคท":
                                 settings["checkContact"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan check details contact")
-                            elif cmd == "checkpost on":
+                            elif cmd == "เปิดโพส":
                                 settings["checkPost"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan check details post")
-                            elif cmd == "checkpost off":
+                            elif cmd == "ปิดโพส":
                                 settings["checkPost"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan check details post")
-                            elif cmd == "checksticker on":
+                            elif cmd == "เปิดติ้ก":
                                 settings["checkSticker"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan check details sticker")
-                            elif cmd == "checksticker off":
+                            elif cmd == "ปิดติ้ก":
                                 settings["checkSticker"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan check details sticker")
                             elif cmd == "unsendchat on":
@@ -763,10 +763,10 @@ def clientBot(op):
                                     profile.statusMessage = string
                                     client.updateProfile(profile)
                                     client.sendMessage(to,"Berhasil mengganti status message menjadi{}".format(str(string)))
-                            elif cmd == "me":
+                            elif cmd == "คท":
                                 sendMention(to, "@!", [sender])
                                 client.sendContact(to, sender)
-                            elif cmd == "mymid":
+                            elif cmd == "mid":
                                 client.sendMessage(to, "[ MID ]\n{}".format(sender))
                             elif cmd == "myname":
                                 contact = client.getContact(sender)
