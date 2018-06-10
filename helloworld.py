@@ -343,7 +343,7 @@ def helpmessage():
                     "╠ " + key + "เชคตัส:「Query」" + "\n" + \
                     "╠ " + key + "คท" + "\n" + \
                     "╠ " + key + "Mid" + "\n" + \
-                    "╠ " + key + "MyName" + "\n" + \
+                    "╠ " + key + "ชื่อเรา" + "\n" + \
                     "╠ " + key + "MyBio" + "\n" + \
                     "╠ " + key + "MyPicture" + "\n" + \
                     "╠ " + key + "MyVideoProfile" + "\n" + \
@@ -768,7 +768,7 @@ def clientBot(op):
                                 client.sendContact(to, sender)
                             elif cmd == "mid":
                                 client.sendMessage(to, "[ MID ]\n{}".format(sender))
-                            elif cmd == "myname":
+                            elif cmd == "ชื่อเรา":
                                 contact = client.getContact(sender)
                                 client.sendMessage(to, "[ Display Name ]\n{}".format(contact.displayName))
                             elif cmd == "mybio":
@@ -785,7 +785,7 @@ def clientBot(op):
                                 path = str(channel)
                                 client.sendImageWithURL(to, path)
                             elif cmd.startswith("cloneprofile "):
-                                if 'MENTION' in msg.contentMetadata.keys()!= None:
+                                if 'แทค' in msg.contentMetadata.keys()!= None:
                                     names = re.findall(r'@(\w+)', text)
                                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
                                     mentionees = mention['MENTIONEES']
