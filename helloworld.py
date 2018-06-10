@@ -339,7 +339,7 @@ def helpmessage():
                     "╠ " + key + "เปิดติ้ก" + "\n" + \
                     "╠ " + key + "เปิดแชท" + "\n" + \
                     "╠══[ Self Command ]" + "\n" + \
-                    "╠ " + key + "ชื่อเรา:「Query」" + "\n" + \
+                    "╠ " + key + "ชื่อ:「Query」" + "\n" + \
                     "╠ " + key + "เชคตัส:「Query」" + "\n" + \
                     "╠ " + key + "คท" + "\n" + \
                     "╠ " + key + "Mid" + "\n" + \
@@ -375,7 +375,7 @@ def helpmessage():
                     "╠ " + key + "MimicList" + "\n" + \
                     "╠ " + key + "MimicAdd「Mention」" + "\n" + \
                     "╠ " + key + "MimicDel「Mention」" + "\n" + \
-                    "╠ " + key + "Mention" + "\n" + \
+                    "╠ " + key + "แทค" + "\n" + \
                     "╠ " + key + "Lurking「On/Off/Reset」" + "\n" + \
                     "╠ " + key + "Lurking" + "\n" + \
                     "╠══[ Media Command ]" + "\n" + \
@@ -391,7 +391,7 @@ def helpmessage():
                     "╠ " + key + "SearchMusic 「Search」" + "\n" + \
                     "╠ " + key + "SearchLyric 「Search」" + "\n" + \
                     "╠ " + key + "SearchImage 「Search」" + "\n" + \
-                    "╚══[ Copyright @Zero-Cool404 ]"
+                    "╚══[ สาสโอ้ 2019 จุฟ]"
     return helpMessage
 
 def helptexttospeech():
