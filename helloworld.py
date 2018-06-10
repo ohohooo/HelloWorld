@@ -322,27 +322,27 @@ def helpmessage():
                     "╠ " + key + "คำสั่ง3" + "\n" + \
                     "╠══[ Status Command ]" + "\n" + \
                     "╠ " + key + "Restart" + "\n" + \
-                    "╠ " + key + "Runtime" + "\n" + \
-                    "╠ " + key + "Speed" + "\n" + \
+                    "╠ " + key + "ออน" + "\n" + \
+                    "╠ " + key + "Sp" + "\n" + \
                     "╠ " + key + "Status" + "\n" + \
                     "╠ MyKey" + "\n" + \
                     "╠ SetKey「On/Off」" + "\n" + \
                     "╠══[ Settings Command ]" + "\n" + \
-                    "╠ " + key + "AutoAdd「On/Off」" + "\n" + \
-                    "╠ " + key + "AutoJoin「On/Off」" + "\n" + \
-                    "╠ " + key + "AutoJoinTicket「On/Off」" + "\n" + \
+                    "╠ " + key + "เปิดแอด" + "\n" + \
+                    "╠ " + key + "เปิดเข้า" + "\n" + \
+                    "╠ " + key + "เปิดTicket" + "\n" + \
                     "╠ " + key + "AutoLeave「On/Off」" + "\n" + \
                     "╠ " + key + "AutoRead「On/Off」" + "\n" + \
-                    "╠ " + key + "AutoRespon「On/Off」" + "\n" + \
-                    "╠ " + key + "CheckContact「On/Off」" + "\n" + \
-                    "╠ " + key + "CheckPost「On/Off」" + "\n" + \
-                    "╠ " + key + "CheckSticker「On/Off」" + "\n" + \
-                    "╠ " + key + "UnsendChat「On/Off」" + "\n" + \
+                    "╠ " + key + "เปิดแทค" + "\n" + \
+                    "╠ " + key + "เปิดคท" + "\n" + \
+                    "╠ " + key + "เปิดโพส" + "\n" + \
+                    "╠ " + key + "เปิดติ้ก" + "\n" + \
+                    "╠ " + key + "เปิดแชท" + "\n" + \
                     "╠══[ Self Command ]" + "\n" + \
-                    "╠ " + key + "ChangeName:「Query」" + "\n" + \
-                    "╠ " + key + "ChangeBio:「Query」" + "\n" + \
-                    "╠ " + key + "Me" + "\n" + \
-                    "╠ " + key + "MyMid" + "\n" + \
+                    "╠ " + key + "ชื่อเรา:「Query」" + "\n" + \
+                    "╠ " + key + "เชคตัส:「Query」" + "\n" + \
+                    "╠ " + key + "คท" + "\n" + \
+                    "╠ " + key + "Mid" + "\n" + \
                     "╠ " + key + "MyName" + "\n" + \
                     "╠ " + key + "MyBio" + "\n" + \
                     "╠ " + key + "MyPicture" + "\n" + \
