@@ -661,10 +661,10 @@ def clientBot(op):
                             elif cmd == "ปิดแอด":
                                 settings["autoAdd"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto add")
-                            elif cmd == "autojoin on":
+                            elif cmd == "เปิดเข้า":
                                 settings["autoJoin"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan auto join")
-                            elif cmd == "autojoin off":
+                            elif cmd == "ปิดเข้า":
                                 settings["autoJoin"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto join")
                             elif cmd == "autoleave on":
