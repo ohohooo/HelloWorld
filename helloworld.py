@@ -318,8 +318,8 @@ def helpmessage():
         key = ''
     helpMessage =   "╔══[ Help Message ]" + "\n" + \
                     "╠ " + key + "คำสั่ง" + "\n" + \
-                    "╠ " + key + "Translate" + "\n" + \
-                    "╠ " + key + "TTS" + "\n" + \
+                    "╠ " + key + "คำสั่ง2" + "\n" + \
+                    "╠ " + key + "คำสั่ง3" + "\n" + \
                     "╠══[ Status Command ]" + "\n" + \
                     "╠ " + key + "Restart" + "\n" + \
                     "╠ " + key + "Runtime" + "\n" + \
@@ -624,13 +624,13 @@ def clientBot(op):
                             return
                         else:
                             cmd = command(text)
-                            if cmd == "help":
+                            if cmd == "คำสั่ง":
                                 helpMessage = helpmessage()
                                 client.sendMessage(to, str(helpMessage))
-                            elif cmd == "tts":
+                            elif cmd == "คำสั่ง2":
                                 helpTextToSpeech = helptexttospeech()
                                 client.sendMessage(to, str(helpTextToSpeech))
-                            elif cmd == "translate":
+                            elif cmd == "คำสั่ง3":
                                 helpTranslate = helptranslate()
                                 client.sendMessage(to, str(helpTranslate))
                             elif cmd.startswith("changekey:"):
