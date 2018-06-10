@@ -641,24 +641,24 @@ def clientBot(op):
                                 else:
                                     settings["keyCommand"] = str(key).lower()
                                     client.sendMessage(to, "Berhasil mengubah key command menjadi [ {} ]".format(str(key).lower()))
-                            elif cmd == "speed":
+                            elif cmd == "sp":
                                 start = time.time()
                                 client.sendMessage(to, "Benchmarking...")
                                 elapsed_time = time.time() - start
                                 client.sendMessage(to, "[ Speed ]\nKecepatan mengirim pesan {} detik".format(str(elapsed_time)))
-                            elif cmd == "runtime":
+                            elif cmd == "ออน":
                                 timeNow = time.time()
                                 runtime = timeNow - botStart
                                 runtime = format_timespan(runtime)
                                 client.sendMessage(to, "Bot sudah berjalan selama {}".format(str(runtime)))
-                            elif cmd == "restart":
+                            elif cmd == "ห้ามใช้":
                                 client.sendMessage(to, "Berhasil merestart Bot")
                                 restartBot()
 # Pembatas Script #
-                            elif cmd == "autoadd on":
+                            elif cmd == "เปิดแอด":
                                 settings["autoAdd"] = True
                                 client.sendMessage(to, "Berhasil mengaktifkan auto add")
-                            elif cmd == "autoadd off":
+                            elif cmd == "ปิดแอด":
                                 settings["autoAdd"] = False
                                 client.sendMessage(to, "Berhasil menonaktifkan auto add")
                             elif cmd == "autojoin on":
