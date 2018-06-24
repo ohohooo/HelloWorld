@@ -905,14 +905,14 @@ def clientBot(op):
                                 group = client.getGroup(to)
                                 GS = group.creator.mid
                                 client.sendContact(to, GS)
-                            elif cmd == 'groupid':
+                            elif cmd == 'ไอดีกลุ่ม':
                                 gid = client.getGroup(to)
                                 client.sendMessage(to, "[ID Group : ]\n" + gid.id)
                             elif cmd == 'grouppicture':
                                 group = client.getGroup(to)
                                 path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
                                 client.sendImageWithURL(to, path)
-                            elif cmd == 'groupname':
+                            elif cmd == 'ชื่อกลุ่ม':
                                 gid = client.getGroup(to)
                                 client.sendMessage(to, "[Nama Group : ]\n" + gid.name)
                             elif cmd == 'groupticket':
@@ -941,7 +941,7 @@ def clientBot(op):
                                         group.preventedJoinByTicket = True
                                         client.updateGroup(group)
                                         client.sendMessage(to, "Berhasil menutup grup qr")
-                            elif cmd == 'groupinfo':
+                            elif cmd == 'ข้อมูลกลุ่ม':
                                 group = client.getGroup(to)
                                 try:
                                     gCreator = group.creator.displayName
@@ -979,7 +979,7 @@ def clientBot(op):
                                         no += 1
                                     ret_ += "\n╚══[ Total {} ]".format(str(len(group.members)))
                                     client.sendMessage(to, str(ret_))
-                            elif cmd == 'grouplist':
+                            elif cmd == 'กลุ่มเรา':
                                     groups = client.groups
                                     ret_ = "╔══[ Group List ]"
                                     no = 0 + 1
@@ -998,7 +998,7 @@ def clientBot(op):
                                     if to not in settings["changeGroupPicture"]:
                                         settings["changeGroupPicture"].append(to)
                                     client.sendMessage(to, "Silahkan kirim gambarnya")
-                            elif cmd == 'mention':
+                            elif cmd == 'แทค':
                                 group = client.getGroup(msg.to)
                                 nama = [contact.mid for contact in group.members]
                                 k = len(nama)//100
